@@ -30,6 +30,16 @@ class Form extends React.Component {
       <div>
         <form onSubmit={this.handleOnSubmit}>
           <label>
+            Github ID:
+            <input
+              type="text"
+              name="githubID"
+              onChange={this.handleOnChange}
+              value={this.state.githubID}
+             />
+          <br/>
+          </label>
+          <label>
             Location:
             <input
               type="text"
@@ -38,7 +48,7 @@ class Form extends React.Component {
               value={this.state.location}
              />
           </label>
-          <input type="submit" value="Submit" />
+          <br/><input type="submit" value="Submit" />
         </form>
       </div>
     )
