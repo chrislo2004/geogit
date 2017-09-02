@@ -1,0 +1,23 @@
+{
+  "name": "geogit",
+  "version": "1.0.0",
+  "description": "geogit@wobb",
+  "main": "index.js",
+  "dependencies": {
+    "create-react-app": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrislo2004/geogit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrislo2004/geogit/issues"
+  },
+  "homepage": "https://github.com/chrislo2004/geogit#readme"
+}
